@@ -12,13 +12,13 @@ def most_repeated_index_of_char(input):
     for i in range(len(input)):
         if input[i] == max_char:
             print(i, end=" ")
-        
-   
-input="MISSISSIP"
+            
+            
+# input="MISSISSIP"
 input = "banana"
 
 most_repeated_index_of_char(input)
 print()                  
-            
+
         
         
