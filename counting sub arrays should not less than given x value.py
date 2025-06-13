@@ -1,6 +1,5 @@
-
-
-
+# Count the number of contiguous subarrays such that the sum of elements 
+# in the subarray is greater than or equal to x.
 
 def count_subarrays_with_sum_at_least_x(arr, x):
     n = len(arr)
