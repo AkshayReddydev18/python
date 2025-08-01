@@ -1,9 +1,9 @@
-x = input("Enetr a Roman Number:")
-roman_values = {
-    'I':1,'V':5,'X':10,'L':50,'C':100,'D':500,'M':1000
-    }
-total_value = 0
-prev_value = 0
+# x = input("Enetr a Roman Number:")
+# roman_values = {
+#     'I':1,'V':5,'X':10,'L':50,'C':100,'D':500,'M':1000
+#     }
+# total_value = 0
+# prev_value = 0
 # for char in x:
 #     current_value = roman_values[char]
 #     if current_value > prev_value:
@@ -14,8 +14,12 @@ prev_value = 0
 #         total_value += current_value 
 #     prev_value = current_value
 # print(total_value)
-
-
+x = input("Enter a Roman Number:")
+roman_values = {
+    'I':1,'V':5,'X':10,'L':50,'C':100,'D':500,'M':1000
+    }
+total_value = 0
+prev_value = 0
 for char in reversed(x):
     current_value = roman_values[char]
     if current_value < prev_value:
