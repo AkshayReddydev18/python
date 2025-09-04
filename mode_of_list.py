@@ -9,7 +9,9 @@ list = eval(input("Enter a list:"))
 # print(mod)
 
 
+
 # print('mode: ',max(list,key = list.count))
+
 
 dict = {}
 for x in list:
@@ -18,9 +20,5 @@ for x in list:
 max_count = max(dict.values())
 
 mode = [k for k,v in dict.items() if v == max_count]
-# if len(mode) == 1:
-#     print('mode is :',mode)
-# else:
-#     print('modes are:',mode)
-# print(mode)
+
 print(f'mode is : {mode}' if len(mode) == 1 else f'modes are: {mode}')
